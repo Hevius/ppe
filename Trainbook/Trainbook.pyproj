@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Trainbook\" />
+    <Folder Include="Trainbook\Images\" />
+    <Folder Include="Trainbook\Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Trainbook\Templates\base.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
