@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+	sharedrepository = 2
+	editor = Visual Studio 2012
+[receive]
+	denyNonFastforwards = true
+[remote "GitHub"]
+	url = git@github.com:Hevius/ppe.git
+	fetch = +refs/heads/*:refs/remotes/GitHub/*
+	puttykeyfile = C:/Users/apatenotre/Documents/Visual Studio 2012/Projects/trainbook_private.ppk
+[user]
+	name = Hevius
+	email = p.p.m.alexis@gmail.com
+[merge]
+	tool = kdiff3
