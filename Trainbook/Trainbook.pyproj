@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Trainbook\Templates\base.html" />
+    <Content Include="Trainbook\Templates\listes.html" />
+    <Content Include="Trainbook\Templates\login.html" />
+    <Content Include="Trainbook\Templates\logout.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
