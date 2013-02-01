@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'Trainbook.views.home', name='home'),
     # url(r'^Trainbook/', include('Trainbook.Trainbook.urls')),
-    url(r'^$', 'Trainbook.Templates.base', name='base'),
+    # url(r'^$', 'Trainbook.Templates.base', name='base'),
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

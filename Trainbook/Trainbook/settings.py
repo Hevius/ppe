@@ -1,4 +1,6 @@
 # Django settings for Trainbook project.
+import os
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
