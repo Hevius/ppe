@@ -30,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="Trainbook\views.py" />
     <Compile Include="Trainbook\__init__.py" />
     <Compile Include="Trainbook\settings.py" />
     <Compile Include="Trainbook\urls.py" />
