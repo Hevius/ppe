@@ -30,6 +30,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="Trainbook\Polls\admin.py" />
+    <Compile Include="Trainbook\Polls\models.py" />
+    <Compile Include="Trainbook\Polls\tests.py" />
+    <Compile Include="Trainbook\Polls\views.py" />
+    <Compile Include="Trainbook\Polls\__init__.py" />
     <Compile Include="Trainbook\views.py" />
     <Compile Include="Trainbook\__init__.py" />
     <Compile Include="Trainbook\settings.py" />
@@ -46,16 +51,16 @@
   <ItemGroup>
     <Folder Include="Trainbook\" />
     <Folder Include="Trainbook\Images\" />
+    <Folder Include="Trainbook\Polls\" />
     <Folder Include="Trainbook\Templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Trainbook\Images\logo_sncf.png" />
-    <Content Include="Trainbook\Templates\base.html" />
+    <Content Include="Trainbook\Templates\footer.html" />
+    <Content Include="Trainbook\Templates\header.html" />
     <Content Include="Trainbook\Templates\index.html" />
-    <Content Include="Trainbook\Templates\listes.html" />
     <Content Include="Trainbook\Templates\login.html" />
     <Content Include="Trainbook\Templates\logout.html" />
-    <Content Include="Trainbook\Templates\profil.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
