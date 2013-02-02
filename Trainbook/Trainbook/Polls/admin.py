@@ -18,9 +18,9 @@ class PollAdmin(admin.ModelAdmin):
     ]
     inlines = [ChoiceInline]
 
-    def was_published_today(self):
-        return self.pub_date.date() == datetime.date.today()
+    #def was_published_today(self):
+    #    return self.pub_date.date() == datetime.date.today()
 
-    was_published_today.short_description = u'Publi&#232; aujourd\'hui ?'
+    #was_published_today.short_description = u'Publi&#232; aujourd\'hui ?'
 
 admin.site.register(Poll, PollAdmin)
