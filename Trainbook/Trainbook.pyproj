@@ -53,9 +53,11 @@
     <Folder Include="Trainbook\Images\" />
     <Folder Include="Trainbook\Polls\" />
     <Folder Include="Trainbook\Templates\" />
+    <Folder Include="Trainbook\Templates\admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Trainbook\Images\logo_sncf.png" />
+    <Content Include="Trainbook\Templates\admin\base_site.html" />
     <Content Include="Trainbook\Templates\footer.html" />
     <Content Include="Trainbook\Templates\header.html" />
     <Content Include="Trainbook\Templates\index.html" />
