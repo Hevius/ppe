@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Trainbook\Images\logo_sncf.png" />
+    <Content Include="Trainbook\Templates\admin\base.html" />
     <Content Include="Trainbook\Templates\admin\base_site.html" />
+    <Content Include="Trainbook\Templates\admin\index.html" />
     <Content Include="Trainbook\Templates\footer.html" />
     <Content Include="Trainbook\Templates\header.html" />
     <Content Include="Trainbook\Templates\index.html" />
